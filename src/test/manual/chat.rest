@@ -1,0 +1,20 @@
+############################################################################################################
+#                                                                                                          #
+#  Este arquivo é utilizado para fazer requisições manuais utilizando o                                    #
+#  plugin do VS Code 'REST Client': https://marketplace.visualstudio.com/items?itemName=humao.rest-client  #
+#                                                                                                          #
+############################################################################################################
+
+### Documentação Open API
+GET http://localhost:9090/v3/api-docs HTTP/1.1
+content-type: application/json
+
+### Gerenative AI em aberto
+GET http://localhost:9090/gerador/ai/generate?message=campeões brasileiros desde 1910 HTTP/1.1
+content-type: application/json
+
+### Categorizador de Produtos
+GET http://localhost:9090/categorizador/ai/generate?produto=Cebolinha HTTP/1.1
+content-type: application/json
+
+
