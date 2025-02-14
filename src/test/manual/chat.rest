@@ -17,4 +17,7 @@ content-type: application/json
 GET http://localhost:9090/categorizador/ai/generate?produto=Cebolinha HTTP/1.1
 content-type: application/json
 
+### Desenvolvedor fullstask Java Spring Boot e Angular
+GET http://localhost:9090/desenvolvedor/ai/generate?message=Preciso de um microsserviço em Spring Boot 3.4 que envie mensagens para um RabbitMQ. As mensagens chegam através de um endpoint HTTP REST neste microsserviço e ele manda a mensagem para o RabbitMQ. Essa mensagem será consumida por múltiplos clientes HTTP/1.1
+content-type: application/json
 
